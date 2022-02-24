@@ -1,4 +1,4 @@
-h1{
+#nomefundo{
     font-size: 4em;
     text-decoration: dotted;
     
@@ -8,12 +8,20 @@ h1{
     
     
 }
+h1{
+    font-size: 4em;
+    text-align: center
+   
+}
 
 h2{
     font-size: 2em;
 }
 p{
-font-style: italic;
+
+  text-align: center;
+    font-style: italic;
+    font-weight:lighter;
 }
 ul{
     font-size: 30px;
@@ -23,14 +31,19 @@ ul{
 #Contato{
     color:rgb(255, 153, 200);
     text-align:start;
+    font-size: 60px;
+    text-align: center;
     
     
 }
 #Sobre{
-    color: rgb(254, 228, 64);
+    color: black;
+   background-color:  rgb(254, 228, 64);
     font-weight: 600;
     border-style: dotted;
     text-align: center;
+    font-size: 36px;
+    
     
 
 }
@@ -40,10 +53,12 @@ body{
     backface-visibility: hidden;}
 
 
-#resumovida{
+#resumovida {
     text-align: center;
     font-style: italic;
     font-weight:lighter;
+    font-size: 30px;
+    
 
 }
 #nome{
@@ -58,23 +73,19 @@ body{
     display: inline-block;
     padding: 23px;
     font-weight: bolder;
-    background-color: rgb(255, 214, 165);
-    
-
-    
+    background-color:#fb5607;
 }
 #b{
     float: none;
-    display: inline-block;padding: 23px;
-    background-color: rgb(253, 255, 182);
-    
+    display: inline-block;
+    padding: 23px;
+    background-color:#8338ec;
 }
 #c{
     float: none;
     display: inline-block;
     padding: 23px;
-    background-color: rgb(202, 255, 191);
-}
+    background-color: rgb(254, 228, 64);}
     
 #d{
     float: none;
@@ -86,20 +97,20 @@ body{
     float: none;
     display: inline-block;
     padding: 23px;
-    background-color: rgb(160, 196, 255);
+    background-color:#20A4F3
 }
 #f{
     float: none;
     display: inline-block;
     padding: 23px;
-    background-color: rgb(189, 178, 255);
+    background-color:#2EC4B6 ;
+    color:rgb(189, 178, 255) ;
 }
 #g{
     float: none;
     display: inline-block;
     padding: 23px;
-    background-color: rgb(255, 198, 255);
-}
+    background-color: #FF3366;}
 #tudo{
     font-size: 25px;
     font-style:unset;
@@ -115,15 +126,65 @@ a:link{
     color: black;
 }
 .habilidade{
-    color: rgb(155, 246, 255);
+    background-color: rgb(155, 246, 255);
+    color: black;
     font-weight: 600;
     border-style: dotted;
     text-align: center;
+    font-size: 36px;
+    
 }
 #capa{
-    background: #011627;
+    background-color: #011627;
 }
 #foto{
     text-align: center;
     object-fit: contain;
+}
+.habilidades{
+    
+    background-color: bisque;
+    font-size: 30px;
+}
+#Pensamento{
+    text-align: center;
+    background-color:gray ;
+    color:black ;
+   
+    font-size: 30px;
+}
+#Persuasao{
+    text-align: center;
+    background-color:gray ;
+    color:black ;
+    font-size: 30px;
+   
+}
+#Flexivel{
+    text-align: center;
+    background-color: gray;
+    color: black;
+  
+    font-size: 30px;
+
+}
+#Autoconhecimento{
+    text-align: center;
+    background-color:gray ;
+    color: black ;
+    font-size: 30px;
+}
+#descriçao{
+    background-color:rgb(255, 255, 255); 
+    color: #181817;
+    font-weight: 600;
+    text-align: center;
+    border-style: dotted;
+    font-size: 30px;
+  
+}
+#links{
+    float: none;
+    display: inline-block;
+    padding: 23px;
 }
