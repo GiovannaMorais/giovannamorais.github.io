@@ -1,69 +1,8 @@
-#nomefundo{
-    font-size: 4em;
-    text-decoration: dotted;
-    
-    text-align: center;
-    color:#2C7DA0 ;
-    background-color:  #012A4A;;  
-}
-h1{
-    font-size: 4em;
-    text-align: center 
+#capa,body{
+    background-color: #468FAF;
 }
 
-h2{
-    font-size: 2em;
-}
-p{
-
-  text-align: center;
-    font-style: italic;
-    font-weight:lighter;
-}
-ul{
-    font-size: 30px;
-    font-style: italic;  
-}
-#Contato{
-        
-    color:#2C7DA0 ;
-    background-color:  #012A4A;;
-    text-align:start;
-    font-size: 60px;
-    text-align: center;  
-}
-#Sobre{
-    color:#2C7DA0 ;
-    background-color:  #012A4A;
-    font-weight: 600;
-    border-style: dotted;
-    text-align: center;
-    font-size: 36px;
-    
-    
-
-}
-body{
-    
-    background-color:rgb(255, 255, 252);
-    backface-visibility: hidden;}
-
-
-#resumovida {
-    text-align: center;
-    font-style: italic;
-    font-weight :500px; ;
-    font-size: 30px;
-    
-
-}
-#nome{
-    border-style: dotted;
-    cursor:auto;
-    padding: 15px;
-
-}
-#a{
+#a,#b,#c,#d,#e,#f,#g{
     
     float:none;
     display: inline-block;
@@ -71,55 +10,56 @@ body{
     font-weight: bolder;
     background-color:#012A4A
 }
-#b{
-    float: none;
-    display: inline-block;
-    padding: 23px;
-    background-color:#012A4A;
+
+#nome{
+    border-style: dotted;
+    cursor:auto;
+    padding: 15px;
+ 
 }
-#c{
-    float: none;
-    display: inline-block;
-    padding: 23px;
-    background-color: #012A4A;}
+
+#nomefundo{
+    font-size: 4em;
+    text-decoration: dotted;
     
-#d{
-    float: none;
-    display: inline-block;
-    padding: 23px;
-    background-color: #012A4A;
-}
-#e{
-    float: none;
-    display: inline-block;
-    padding: 23px;
-    background-color:#012A4A
-}
-#f{
-    float: none;
-    display: inline-block;
-    padding: 23px;
-    background-color:#012A4A ;
-    color:rgb(189, 178, 255) ;
-}
-#g{
-    float: none;
-    display: inline-block;
-    padding: 23px;
-    background-color: #012A4A}
-#tudo{
-    font-size: 25px;
-    font-style:unset;
-    color:black;
     text-align: center;
-    display: inline-block;
-    font-size: 40px;
-    border-radius: 50px;
+    color:#2C7DA0 ;
+    background-color:  #012A4A;
+      
+}
+
+
+#descriçao {
+    color:#2C7DA0 ;
+   
+    font-weight: 600;
+    font-size: 36px;
+    list-style:none; 
+    text-align: center;
+    
+    width: 40%;
+    float: left;
+    position: relative;
+    
+} 
+#Sobre{
+    color:#2C7DA0 ;
+    background-color:  #012A4A;
+    font-weight: 600;
+    border-style: dotted;
+    text-align: center;
+    font-size: 36px;
+    clear: left;
+    
     
     
 }
-a:link{
-    color: #2C7DA0;
+#resumovida {
+    text-align: center;
+    font-style: italic;
+    font-weight :500px; ;
+    font-size: 30px;
+
 }
 .habilidade{
     color:#2C7DA0 ;
@@ -128,14 +68,6 @@ a:link{
     border-style: dotted;
     text-align: center;
     font-size: 40px;
-    
-}
-#capa{
-    background-color: #468FAF;
-}
-#foto{
-    text-align: center;
-    object-fit: contain;
 }
 .habilidades{
     
@@ -146,7 +78,6 @@ a:link{
     text-align: center;
     background-color:gray ;
     color:black ;
-   
     font-size: 35px;
 }
 .Persuasao{
@@ -170,13 +101,71 @@ a:link{
     color: black ;
     font-size: 35px;
 }
-#descriçao{
+h1{
+    font-size: 4em;
+    text-align: center 
+}
+h2{
+    font-size: 2em;
+}
+
+ul{
+    font-size: 30px;
+    font-style: italic;  
+}
+
+#tudo{
+    font-size: 25px;
+    font-style:unset;
+    color:black;
+    text-align: center;
+    display: inline-block;
+    font-size: 40px;
+    border-radius: 50px;
+}
+#Contato{
+        
     color:#2C7DA0 ;
     background-color:  #012A4A;;
-    font-weight: 600;
-    text-align: center;
-    font-size: 36px;
-  
-} body{
-    background-color: #468FAF;
+    text-align:start;
+    font-size: 60px;
+    text-align: center;  
 }
+   
+a:link{
+    color: #2C7DA0;
+}
+ 
+   
+#foto{
+    float:left;
+    position: relative;
+    height: 700px;
+    padding: 10%;
+    background-color: #012A4A;
+    padding-right: 200px;
+    
+    
+    
+} #descrip{
+    
+    
+   
+    position: absolute;
+    background-color: #012A4A;
+    top: -2px;
+    width: 1080px;
+    height: 758px;
+    padding-top: 40%;
+    right: 300px;
+    letter-spacing: 20px;
+    left: -60px;
+    text-align:center;
+    font-weight: 1000px;
+   
+    
+    
+    
+
+ 
+
