@@ -19,7 +19,7 @@ body {
 
 #nome {
   border-style: dotted;
-  cursor: auto;
+
   padding: 15px;
 }
 
@@ -38,8 +38,6 @@ body {
   font-weight: 600;
   text-align: center;
   font-size: 36px;
- 
-    
 }
 #resumovida {
   text-align: center;
@@ -57,36 +55,31 @@ body {
 }
 
 .habilidades {
-  
   font-size: 25px;
   font-weight: 500px;
   font-style: italic;
   text-align: center;
   width: 500px;
-  height: 320px;
-  border:5px solid bisque;
+  height: 350px;
+  border: 5px solid bisque;
   background-color: bisque;
 }
 #Pensamento {
   text-align: center;
-  background-color: bisque; 
+  background-color: bisque;
   color: #012a4a;
   font-size: 35px;
-  
-  
 }
 .Persuasao {
   text-align: center;
   background-color: bisque;
   color: black;
   font-size: 35px;
-  
 }
 #Flexivel {
   text-align: center;
   background-color: bisque;
   color: black;
-
 
   font-size: 35px;
 }
@@ -95,10 +88,9 @@ body {
   background-color: bisque;
   color: black;
   font-size: 35px;
-  
+
   top: 60%;
   left: 5%;
-  
 }
 h1 {
   font-size: 4em;
@@ -113,12 +105,10 @@ ul {
   font-style: italic;
   text-align: center;
   list-style: none;
-   
- 
+
   padding: 23px;
   font-weight: bolder;
   background-color: #012a4a;
-
 }
 
 #tudo {
@@ -135,7 +125,6 @@ ul {
   background-color: #012a4a;
   font-size: 60px;
   text-align: center;
-  
 }
 
 a:link {
@@ -148,25 +137,28 @@ div {
   background-color: #012a4a;
   bottom: 1px;
   padding-right: 20px;
-  width: 120%;
+  width: 99%;
 }
 #fotoperfil {
   float: left;
   position: absolute;
   height: 100px;
-  width: 100px;
-  bottom: 530px;
-  padding-left: 22%;
+  width: 120px;
+  bottom: 520px;
+  padding-left: 16%;
 }
 #descriçao {
   position: absolute;
-  top: 9%;
-  right: 2%;
+
+  right: 15%;
   color: #2c7da0;
   list-style: none;
   text-align: center;
-  font-size: 200%;
-  width: 40%;
+  font-size: 40px;
+  width: 30%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  bottom: -40px;
 }
 .sobres {
   text-align: center;
@@ -185,45 +177,40 @@ div {
   width: 480px;
   height: 600px;
   border: 3px dotted #2c7da0;
-  
-}
- #softskills{
-     display:inline-block;
-     float: left;
-     padding-left: 10%;
-     padding-bottom: 3%;
-        bottom: 17%;
-        left: 12%;
-        
- 
-} #skills{
-    display: inline-block;
-    float:right;
-    position: absolute;
-    top: -2%;
-    left: 50%;
-    
-
-
-
 }
 #todassofts{
-width: 120%;
-height: 500px;
-background-color: #012a4a;
-padding-top: 5%;
-padding-bottom: 7%;
+  width:auto;
+  padding: 12px;
+ 
+  padding-bottom: 180px;}
 
-} #auto{
-    position:absolute;
-    right:5%;
-    top: 490px;
-    text-align:center;
+#softskills{
+  float: left;
+  left: 220px;
+  width: auto;
+  bottom: 0px;
+
+  
+
+ 
+
 }
+#skills{
+  float: right;
+  width: auto;
+  bottom: 100%;
+  position: absolute;
+  bottom: auto;
+  left: 60%;
+  
+  
+
+}
+#auto{
+  
 
 
+  
 
-
-
-    
-    
+  
+}
