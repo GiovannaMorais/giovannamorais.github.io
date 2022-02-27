@@ -1,6 +1,6 @@
 #capa,
 body {
-  background-color: #468faf;
+  background-color: #a9d6e5;
 }
 
 #a,
@@ -67,7 +67,7 @@ body {
 #Pensamento {
   text-align: center;
   background-color: bisque;
-  color: #012a4a;
+  color: black;
   font-size: 35px;
 }
 .Persuasao {
@@ -80,7 +80,7 @@ body {
   text-align: center;
   background-color: bisque;
   color: black;
-
+  
   font-size: 35px;
 }
 #Autoconhecimento {
@@ -108,7 +108,7 @@ ul {
 
   padding: 23px;
   font-weight: bolder;
-  background-color: #012a4a;
+ 
 }
 
 #tudo {
@@ -122,9 +122,14 @@ ul {
 }
 #Contato {
   color: #2c7da0;
-  background-color: #012a4a;
   font-size: 60px;
   text-align: center;
+  width: 100%; color: #2c7da0;
+  background-color: #012a4a;
+  font-weight: 600;
+  border-style: dotted;
+  text-align: center;
+
 }
 
 a:link {
@@ -150,15 +155,17 @@ div {
 #descriçao {
   position: absolute;
 
-  right: 15%;
+  right: 12%;
   color: #2c7da0;
   list-style: none;
   text-align: center;
   font-size: 40px;
-  width: 30%;
+  width: 32%;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  bottom: -40px;
+    bottom: 0px;
+    
+
 }
 .sobres {
   text-align: center;
@@ -170,6 +177,7 @@ div {
   text-align: center;
   font-size: 22px;
   border: 3px dotted #2c7da0;
+ 
 }
 
 .imagem img {
@@ -177,40 +185,75 @@ div {
   width: 480px;
   height: 600px;
   border: 3px dotted #2c7da0;
+  
 }
-#todassofts{
-  width:auto;
+#todassofts {
+  width: auto;
   padding: 12px;
- 
-  padding-bottom: 180px;}
+  margin-right: 120px;
+  margin-left: 120px;
+  padding-bottom: 180px;
+  border-radius: 4%;
+}
 
-#softskills{
+#softskills {
   float: left;
   left: 220px;
   width: auto;
   bottom: 0px;
-
-  
-
- 
-
 }
-#skills{
+#skills {
   float: right;
   width: auto;
   bottom: 100%;
   position: absolute;
   bottom: auto;
   left: 60%;
-  
-  
-
 }
-#auto{
+#redesocial {
+  height: 15%;
+  width: 30%;
+  left: 35%;
+  background-color:bisque;
+  border-radius: 20%;
+  border: 10px solid #012a4a;
+ 
+}
+#hardskills {
   
-
-
+  width: auto;
+ 
+  font-weight: 600;
+  font-size: 36px;
+  border: 3px dotted #2c7da0;
+  padding-top: 30px;
+  color: #2c7da0;
+  background-color: #012a4a;
+  margin-right: 800px;
+  margin-left: 800px;
   
-
+}
+#unix,#git,#html{
+  display: inline-block;
   
+  background-color: bisque;
+  padding: 23px;
+  font-weight: bolder;
+  text-align: center;
+}
+#blog{
+  text-align: center;
+  font-size: 36px;
+  background-color: bisque;
+  margin-left: 600px;
+  margin-right: 600px;
+  border-radius: 20%;
+  border: 10px solid #012a4a;
+}
+#aprendizado{
+  background-color: #012a4a;
+  margin-left: 640px;
+  height: auto;
+  margin-right: 640px;
+
 }
