@@ -38,6 +38,8 @@ body {
   font-weight: 600;
   text-align: center;
   font-size: 36px;
+ 
+    
 }
 #resumovida {
   text-align: center;
@@ -154,12 +156,12 @@ div {
   height: 100px;
   width: 100px;
   bottom: 530px;
-  padding-left: 50px;
+  padding-left: 30%;
 }
 #descriçao {
   position: absolute;
   top: 10%;
-  right: 20%;
+  right: 30%;
   color: #2c7da0;
   list-style: none;
   text-align: center;
@@ -182,6 +184,7 @@ div {
   width: 480px;
   height: 620px;
   border: 3px dotted #2c7da0;
+  
 }
  #softskills{
      display:inline-block;
@@ -189,13 +192,14 @@ div {
      padding-left: 10%;
      padding-bottom: 3%;
         bottom: 17%;
+        left: 12%;
         
  
 } #skills{
     display: inline-block;
     float:right;
     position: absolute;
-    top: 8px;
+    top: 11%;
     left: 50%;
     
 
