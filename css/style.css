@@ -1,171 +1,224 @@
-#capa,body{
-    background-color: #468FAF;
+#capa,
+body {
+  background-color: #468faf;
 }
 
-#a,#b,#c,#d,#e,#f,#g{
-    
-    float:none;
-    display: inline-block;
-    padding: 23px;
-    font-weight: bolder;
-    background-color:#012A4A
+#a,
+#b,
+#c,
+#d,
+#e,
+#f,
+#g {
+  float: none;
+  display: inline-block;
+  padding: 23px;
+  font-weight: bolder;
+  background-color: #012a4a;
 }
 
-#nome{
-    border-style: dotted;
-    cursor:auto;
-    padding: 15px;
- 
+#nome {
+  border-style: dotted;
+  cursor: auto;
+  padding: 15px;
 }
 
-#nomefundo{
-    font-size: 4em;
-    text-decoration: dotted;
-    
-    text-align: center;
-    color:#2C7DA0 ;
-    background-color:  #012A4A;
-      
+#nomefundo {
+  font-size: 4em;
+  text-decoration: dotted;
+
+  text-align: center;
+  color: #2c7da0;
+  background-color: #012a4a;
 }
 
-
-#descriçao {
-    color:#2C7DA0 ;
-   
-    font-weight: 600;
-    font-size: 36px;
-    list-style:none; 
-    text-align: center;
-    
-    width: 40%;
-    float: left;
-    position: relative;
-    
-} 
-#Sobre{
-    color:#2C7DA0 ;
-    background-color:  #012A4A;
-    font-weight: 600;
-    border-style: dotted;
-    text-align: center;
-    font-size: 36px;
-    clear: left;
-    
-    
-    
+#Sobre {
+  color: #2c7da0;
+  background-color: #012a4a;
+  font-weight: 600;
+  text-align: center;
+  font-size: 36px;
 }
 #resumovida {
-    text-align: center;
-    font-style: italic;
-    font-weight :500px; ;
-    font-size: 30px;
+  text-align: center;
+  font-style: italic;
+  font-weight: 500px;
+  font-size: 30px;
+}
+.habilidade {
+  color: #2c7da0;
+  background-color: #012a4a;
+  font-weight: 600;
+  border-style: dotted;
+  text-align: center;
+  font-size: 40px;
+}
 
-}
-.habilidade{
-    color:#2C7DA0 ;
-    background-color:  #012A4A;;
-    font-weight: 600;
-    border-style: dotted;
-    text-align: center;
-    font-size: 40px;
-}
-.habilidades{
-    
-    background-color: bisque;
-    font-size: 35px;
-}
-#Pensamento{
-    text-align: center;
-    background-color:gray ;
-    color:black ;
-    font-size: 35px;
-}
-.Persuasao{
-    text-align: center;
-    background-color:gray ;
-    color:black ;
-    font-size: 35px;
-   
-}
-#Flexivel{
-    text-align: center;
-    background-color: gray;
-    color: black;
+.habilidades {
   
-    font-size: 35px;
+  font-size: 25px;
+  font-weight: 500px;
+  font-style: italic;
+  text-align: center;
+  width: 500px;
+  height: 320px;
+  border:5px solid bisque;
+  background-color: bisque;
+}
+#Pensamento {
+  text-align: center;
+  background-color: bisque; 
+  color: #012a4a;
+  font-size: 35px;
+  
+  
+}
+.Persuasao {
+  text-align: center;
+  background-color: bisque;
+  color: black;
+  font-size: 35px;
+  
+}
+#Flexivel {
+  text-align: center;
+  background-color: bisque;
+  color: black;
+
+
+  font-size: 35px;
+}
+#Autoconhecimento {
+  text-align: center;
+  background-color: bisque;
+  color: black;
+  font-size: 35px;
+  
+  top: 60%;
+  left: 5%;
+  
+}
+h1 {
+  font-size: 4em;
+  text-align: center;
+}
+h2 {
+  font-size: 2em;
+}
+
+ul {
+  font-size: 30px;
+  font-style: italic;
+  text-align: center;
+  list-style: none;
+   
+ 
+  padding: 23px;
+  font-weight: bolder;
+  background-color: #012a4a;
 
 }
-#Autoconhecimento{
-    text-align: center;
-    background-color:gray ;
-    color: black ;
-    font-size: 35px;
+
+#tudo {
+  font-size: 25px;
+  font-style: unset;
+  color: black;
+  text-align: center;
+  display: inline-block;
+  font-size: 40px;
+  border-radius: 50px;
 }
-h1{
-    font-size: 4em;
-    text-align: center 
-}
-h2{
-    font-size: 2em;
+#Contato {
+  color: #2c7da0;
+  background-color: #012a4a;
+  font-size: 60px;
+  text-align: center;
+  
 }
 
-ul{
-    font-size: 30px;
-    font-style: italic;  
+a:link {
+  color: #2c7da0;
 }
 
-#tudo{
-    font-size: 25px;
-    font-style:unset;
-    color:black;
-    text-align: center;
-    display: inline-block;
-    font-size: 40px;
-    border-radius: 50px;
+div {
+  height: 620px;
+  position: relative;
+  background-color: #012a4a;
+  bottom: 1px;
+  padding-right: 20px;
+  
 }
-#Contato{
+#fotoperfil {
+  float: left;
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  bottom: 530px;
+  padding-left: 50px;
+}
+#descriçao {
+  position: absolute;
+  top: 10%;
+  right: 20%;
+  color: #2c7da0;
+  list-style: none;
+  text-align: center;
+  font-size: 200%;
+}
+.sobres {
+  text-align: center;
+  height: 100px;
+  color: #2c7da0;
+  background-color: #012a4a;
+  font-size: 24px;
+  padding-bottom: 22px;
+  text-align: center;
+  font-size: 22px;
+  border: 3px dotted #2c7da0;
+}
+
+.imagem img {
+  border-radius: 40%;
+  width: 480px;
+  height: 620px;
+  border: 3px dotted #2c7da0;
+}
+ #softskills{
+     display:inline-block;
+     float: left;
+     padding-left: 10%;
+     padding-bottom: 3%;
+        bottom: 17%;
         
-    color:#2C7DA0 ;
-    background-color:  #012A4A;;
-    text-align:start;
-    font-size: 60px;
-    text-align: center;  
-}
-   
-a:link{
-    color: #2C7DA0;
-}
  
-   
-#foto{
-    float:left;
-    position: relative;
-    height: 700px;
-    padding: 10%;
-    background-color: #012A4A;
-    padding-right: 200px;
-    
-    
-    
-} #descrip{
-    
-    
-   
+} #skills{
+    display: inline-block;
+    float:right;
     position: absolute;
-    background-color: #012A4A;
-    top: -2px;
-    width: 1080px;
-    height: 758px;
-    padding-top: 40%;
-    right: 300px;
-    letter-spacing: 20px;
-    left: -60px;
+    top: 8px;
+    left: 50%;
+    
+
+
+
+}
+#todassofts{
+width: 120%;
+height: 500px;
+background-color: #012a4a;
+padding-top: 5%;
+padding-bottom: 7%;
+
+} #auto{
+    position:absolute;
+    right:5%;
+    top: 490px;
     text-align:center;
-    font-weight: 1000px;
-   
-    
-    
-    
+}
 
- 
 
+
+
+
+    
+    
