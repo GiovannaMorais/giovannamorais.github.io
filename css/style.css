@@ -160,12 +160,13 @@ div {
 }
 #descriçao {
   position: absolute;
-  top: 10%;
-  right: 10%;
+  top: 9%;
+  right: 2%;
   color: #2c7da0;
   list-style: none;
   text-align: center;
   font-size: 200%;
+  width: 40%;
 }
 .sobres {
   text-align: center;
